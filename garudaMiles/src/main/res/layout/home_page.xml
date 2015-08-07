@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray" >
+
+    <RelativeLayout
+        android:id="@+id/layoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="#FFFFFFFF" >
+
+        <TextView
+            android:id="@+id/btnTravelPedia"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Travelpedia"
+            android:textColor="#FF0065b3"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/line1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/btnTravelPedia"
+            android:gravity="center_vertical"
+            android:text="|"
+            android:textColor="#FFaaaaaa"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/btnDiscover"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/line1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Discover"
+            android:textColor="#FFaaaaaa"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/line2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/btnDiscover"
+            android:gravity="center_vertical"
+            android:text="|"
+            android:textColor="#FFaaaaaa"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/btnMe"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/line2"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Me"
+            android:textColor="#FFaaaaaa"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/line3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/btnMe"
+            android:gravity="center_vertical"
+            android:text="|"
+            android:textColor="#FFaaaaaa"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/backgroundLine"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_below="@+id/btnTravelPedia"
+            android:background="#FFaaaaaa" />
+
+        <View
+            android:id="@+id/lineTravelpedia"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_alignLeft="@+id/btnTravelPedia"
+            android:layout_alignRight="@+id/btnTravelPedia"
+            android:layout_below="@+id/btnTravelPedia"
+            android:background="#FF0065b3" />
+
+        <View
+            android:id="@+id/lineDiscover"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_alignLeft="@+id/btnDiscover"
+            android:layout_alignRight="@+id/btnDiscover"
+            android:layout_below="@+id/btnDiscover"
+            android:background="#FFaaaaaa" />
+
+        <View
+            android:id="@+id/lineMe"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_alignLeft="@+id/btnMe"
+            android:layout_alignRight="@+id/btnMe"
+            android:layout_below="@+id/btnMe"
+            android:background="#FFaaaaaa" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutButton" >
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

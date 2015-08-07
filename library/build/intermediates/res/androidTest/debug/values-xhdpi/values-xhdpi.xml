@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Sulalah%20Rugaya/StudioProjects/GarudaMiles/library/build/intermediates/bundles/debug/res/values-xhdpi/values-xhdpi.xml -->
+    <eat-comment/>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="text_1_left">105dp</dimen>
+    <dimen name="text_1_top">20dp</dimen>
+    <dimen name="text_2_left">50dp</dimen>
+    <dimen name="text_2_top">50dp</dimen>
+    <dimen name="text_3_left">57dp</dimen>
+    <dimen name="text_3_top">115dp</dimen>
+    <integer name="num_cols">1</integer>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">GarudaMiles</string>
+    <string name="empty"/>
+    <string name="hello_world">Hello world!</string>
+    <string name="kosong"/>
+    <string name="search_hint">Search hint</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#FF0065b3</item>
+    </style>
+    <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+</resources>

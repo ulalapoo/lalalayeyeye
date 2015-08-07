@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <RelativeLayout
+        android:id="@+id/layoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="#FFFFFFFF" >
+
+        <TextView
+            android:id="@+id/btnDraft"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="New Attraction (5)"
+            android:textColor="#FF0065b3"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/line1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/btnDraft"
+            android:gravity="center_vertical"
+            android:text="|"
+            android:textColor="#FFaaaaaa"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/btnReview"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/btnDraft"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Reviews (5)"
+            android:textColor="#FFaaaaaa"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/line2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/btnReview"
+            android:gravity="center_vertical"
+            android:text="|"
+            android:textColor="#FFaaaaaa"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/backgroundLine"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_below="@+id/btnDraft"
+            android:background="#FFaaaaaa"
+            android:layout_marginBottom="6dp"/>
+
+        <View
+            android:id="@+id/lineDraft"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_alignLeft="@+id/btnDraft"
+            android:layout_alignRight="@+id/btnDraft"
+            android:layout_below="@+id/btnDraft"
+            android:background="#FF0065b3" />
+
+        <View
+            android:id="@+id/lineReview"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_alignLeft="@+id/btnReview"
+            android:layout_alignRight="@+id/btnReview"
+            android:layout_below="@+id/btnReview"
+            android:background="#FFaaaaaa" />
+
+
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutButton" >
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout><!-- From: file:/C:/Users/Sulalah%20Rugaya/StudioProjects/GarudaMiles/garudaMiles/src/main/res/layout/draft_page.xml -->

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/sat_main" android:state_pressed="true"/>
+    <item android:drawable="@drawable/sat_main"/>
+
+</selector><!-- From: file:/C:/Users/Sulalah%20Rugaya/StudioProjects/GarudaMiles/library/src/main/res/drawable/composer_icn_plus.xml --><!-- From: file:/C:/Users/Sulalah%20Rugaya/StudioProjects/GarudaMiles/garudaMiles/build/intermediates/exploded-aar/GarudaMiles/library/unspecified/res/drawable/composer_icn_plus.xml -->

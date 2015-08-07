@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listCulinary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#FF7b7b7b"
+        android:dividerHeight="0.8dp" />
+
+</LinearLayout>

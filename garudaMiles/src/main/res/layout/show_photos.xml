@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abs__background_holo_dark">
+
+    <com.ortiz.touch.ExtendedViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/textTitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/12 "
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="10dp"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingLeft="10dp"
+        android:layout_above="@id/textTitle3"
+        android:text="Photo Caption Here...\nPhoto Caption Here...\nPhoto Caption Here...\nPhoto Caption Here...\nPhoto Caption Here...\nPhoto Caption Here...\n"
+        android:scrollbars="vertical"
+        android:gravity="top"
+        android:ellipsize="end"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_alignParentLeft="true" />
+
+
+
+
+
+</RelativeLayout>

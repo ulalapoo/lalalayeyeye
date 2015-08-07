@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:fitsSystemWindows="true"
+        android:scaleType="center"
+        android:src="@drawable/bg" />
+
+    
+    <ImageView
+        android:id="@+id/logo_garudamiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:adjustViewBounds="true"
+        android:fitsSystemWindows="true"
+        android:src="@drawable/logo_garudamiles" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_garudamiles"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="18dp"
+        android:alpha="0.7"
+        android:gravity="center"
+        android:text="Garuda SocialMiles mengajak Anda berbagi inspirasi seputar pengalaman traveling Anda di berbagai destinasi di Indonesia"
+        android:textColor="@android:color/white"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/logogaruda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:adjustViewBounds="true"
+        android:fitsSystemWindows="true"
+        android:src="@drawable/logo_garuda_indonesia" />
+
+    <LinearLayout
+        android:id="@+id/layoutLoginSocial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logogaruda"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:fitsSystemWindows="true"
+            android:src="@drawable/socmed_fb" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:fitsSystemWindows="true"
+            android:src="@drawable/socmed_twitter" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:fitsSystemWindows="true"
+            android:src="@drawable/socmed_gplus" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textLoginSocialMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layoutLoginSocial"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:alpha="0.7"
+        android:text="OR WITH SOCIAL MEDIA"
+        android:textColor="@android:color/white"
+        android:textSize="13sp" />
+
+    <ImageButton
+        android:id="@+id/buttonLoginGarudaMiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textLoginSocialMedia"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/rounded_white"
+        android:fitsSystemWindows="true"
+        android:src="@drawable/garudamiles_logo_tengah" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Sulalah%20Rugaya/StudioProjects/GarudaMiles/garudaMiles/src/main/res/layout/activity_landing.xml -->

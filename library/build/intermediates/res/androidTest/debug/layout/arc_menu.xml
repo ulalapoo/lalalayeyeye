@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.capricorn.ArcLayout
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/item_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        custom:childSize="50dip"
+        custom:fromDegrees="270.0"
+        custom:toDegrees="160.0" />
+
+    <FrameLayout
+        android:id="@+id/control_layout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent" >
+
+        <ImageView
+            android:id="@+id/control_hint"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0.3dp"
+            android:layout_marginRight="0.5dp"
+            android:duplicateParentState="true"
+            android:src="@drawable/composer_icn_plus" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textViewMenu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/text_1_left"
+        android:layout_marginTop="@dimen/text_1_top"
+        android:text="Add attraction"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewMenu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/text_2_left"
+        android:layout_marginTop="@dimen/text_2_top"
+        android:text="Take a review"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewMenu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/text_3_left"
+        android:layout_marginTop="@dimen/text_3_top"
+        android:text="Add photo"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+</merge><!-- From: file:/C:/Users/Sulalah%20Rugaya/StudioProjects/GarudaMiles/library/src/main/res/layout/arc_menu.xml --><!-- From: file:/C:/Users/Sulalah%20Rugaya/StudioProjects/GarudaMiles/library/build/intermediates/bundles/debug/res/layout/arc_menu.xml -->
