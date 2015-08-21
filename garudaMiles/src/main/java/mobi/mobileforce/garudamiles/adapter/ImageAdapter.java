@@ -39,6 +39,7 @@ public class ImageAdapter extends BaseAdapter {
 	RecordHolder holder = null;
 	int darihalaman;
 	int DARIALBUMFOTO = 0;
+	int SELAINDARIALBUMFOTO = 1;
 
 	public ImageAdapter(Context context, ArrayList<String> imageList, int darihalaman) {
 		// TODO Auto-generated constructor stub

@@ -25,8 +25,7 @@
         android:layout_height="150dp"
         android:paddingLeft="10dp"
         android:layout_above="@id/textTitle3"
-        android:text="Photo Caption Here...\n
-        Photo Caption Here...\nPhoto Caption Here...\nPhoto Caption Here...\nPhoto Caption Here...\nPhoto Caption Here...\n"
+        android:text="Photo Caption Here...\nPhoto Caption Here...\nPhoto Caption Here...\nPhoto Caption Here...\nPhoto Caption Here...\nPhoto Caption Here...\n"
         android:scrollbars="vertical"
         android:gravity="top"
         android:ellipsize="end"

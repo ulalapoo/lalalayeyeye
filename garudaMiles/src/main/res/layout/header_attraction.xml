@@ -170,6 +170,7 @@
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:fitsSystemWindows="true"
+                    android:id="@+id/reviewRate"
                     android:src="@drawable/attraction_rate_review" />
 
                 <TextView

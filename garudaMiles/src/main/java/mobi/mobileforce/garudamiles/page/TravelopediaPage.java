@@ -59,6 +59,7 @@ public class TravelopediaPage extends Fragment {
 		});
 
 		listView.addHeaderView(header, null, false);
+
 		listView.setAdapter(adapter);
 
 		getdata();

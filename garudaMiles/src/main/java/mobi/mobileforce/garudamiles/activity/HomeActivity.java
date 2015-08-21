@@ -151,7 +151,7 @@ public class HomeActivity extends FragmentActivity implements
 		// getActionBar().setHomeButtonEnabled(true);
 
 		mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout,
-				R.drawable.header_menu, // nav menu toggle icon
+				R.drawable.header_menu, // nav menu toggle iconapter
 				R.string.app_name, // nav drawer open - description for
 									// accessibility
 				R.string.app_name // nav drawer close - description for

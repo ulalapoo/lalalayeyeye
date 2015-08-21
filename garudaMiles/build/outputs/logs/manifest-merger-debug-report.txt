@@ -95,35 +95,35 @@ MERGED from com.android.support:support-v4:21.0.3:16:5
 MERGED from com.google.android.gms:play-services:6.5.87:20:5
 MERGED from com.android.support:support-v4:21.0.3:16:5
 	android:label
-		ADDED from AndroidManifest.xml:47:9
+		ADDED from AndroidManifest.xml:47:5
 	android:allowBackup
-		ADDED from AndroidManifest.xml:45:9
+		ADDED from AndroidManifest.xml:45:5
 	android:icon
-		ADDED from AndroidManifest.xml:46:9
+		ADDED from AndroidManifest.xml:46:5
 	android:theme
-		ADDED from AndroidManifest.xml:48:9
+		ADDED from AndroidManifest.xml:48:5
 	android:name
-		ADDED from AndroidManifest.xml:44:9
+		ADDED from AndroidManifest.xml:44:5
 activity#mobi.mobileforce.garudamiles.LandingActivity
-ADDED from AndroidManifest.xml:49:9
+ADDED from AndroidManifest.xml:49:5
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:52:13
+		ADDED from AndroidManifest.xml:52:9
 	android:label
-		ADDED from AndroidManifest.xml:51:13
+		ADDED from AndroidManifest.xml:51:9
 	android:theme
-		ADDED from AndroidManifest.xml:53:13
+		ADDED from AndroidManifest.xml:53:9
 	android:name
-		ADDED from AndroidManifest.xml:50:13
+		ADDED from AndroidManifest.xml:50:9
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:54:13
+ADDED from AndroidManifest.xml:54:9
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:55:17
+ADDED from AndroidManifest.xml:55:13
 	android:name
-		ADDED from AndroidManifest.xml:55:25
+		ADDED from AndroidManifest.xml:55:21
 category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:57:17
+ADDED from AndroidManifest.xml:57:13
 	android:name
-		ADDED from AndroidManifest.xml:57:27
+		ADDED from AndroidManifest.xml:57:23
 activity#mobi.mobileforce.garudamiles.activity.GalleryActivity
 ADDED from AndroidManifest.xml:60:9
 	android:screenOrientation
@@ -134,7 +134,7 @@ ADDED from AndroidManifest.xml:60:9
 		ADDED from AndroidManifest.xml:64:13
 	android:name
 		ADDED from AndroidManifest.xml:61:13
-activity#mobi.mobileforce.garudamiles.activity.HomeActivity
+activity#mobi.mobileforce.garudamiles.activity.SearchReview
 ADDED from AndroidManifest.xml:66:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:69:13
@@ -144,7 +144,7 @@ ADDED from AndroidManifest.xml:66:9
 		ADDED from AndroidManifest.xml:70:13
 	android:name
 		ADDED from AndroidManifest.xml:67:13
-activity#com.ortiz.touch.ViewPagerExampleActivity
+activity#mobi.mobileforce.garudamiles.activity.HomeActivity
 ADDED from AndroidManifest.xml:72:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:75:13
@@ -154,7 +154,7 @@ ADDED from AndroidManifest.xml:72:9
 		ADDED from AndroidManifest.xml:76:13
 	android:name
 		ADDED from AndroidManifest.xml:73:13
-activity#mobi.mobileforce.garudamiles.activity.DetailActivity
+activity#mobi.mobileforce.garudamiles.activity.AttractionTypeActivity
 ADDED from AndroidManifest.xml:78:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:81:13
@@ -164,7 +164,7 @@ ADDED from AndroidManifest.xml:78:9
 		ADDED from AndroidManifest.xml:82:13
 	android:name
 		ADDED from AndroidManifest.xml:79:13
-activity#mobi.mobileforce.garudamiles.activity.DetailActivity2
+activity#mobi.mobileforce.garudamiles.activity.PublishActivity
 ADDED from AndroidManifest.xml:84:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:87:13
@@ -174,19 +174,79 @@ ADDED from AndroidManifest.xml:84:9
 		ADDED from AndroidManifest.xml:88:13
 	android:name
 		ADDED from AndroidManifest.xml:85:13
-meta-data#com.google.android.maps.v2.API_KEY
-ADDED from AndroidManifest.xml:92:9
-	android:value
+activity#mobi.mobileforce.garudamiles.activity.ReviewActivity
+ADDED from AndroidManifest.xml:90:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:93:13
+	android:label
+		ADDED from AndroidManifest.xml:92:13
+	android:theme
 		ADDED from AndroidManifest.xml:94:13
 	android:name
-		ADDED from AndroidManifest.xml:93:13
+		ADDED from AndroidManifest.xml:91:13
+activity#mobi.mobileforce.garudamiles.page.AddAttractionName
+ADDED from AndroidManifest.xml:96:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:99:13
+	android:label
+		ADDED from AndroidManifest.xml:98:13
+	android:theme
+		ADDED from AndroidManifest.xml:100:13
+	android:name
+		ADDED from AndroidManifest.xml:97:13
+activity#com.ortiz.touch.ViewPagerExampleActivity
+ADDED from AndroidManifest.xml:102:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:105:9
+	android:label
+		ADDED from AndroidManifest.xml:104:9
+	android:theme
+		ADDED from AndroidManifest.xml:106:9
+	android:name
+		ADDED from AndroidManifest.xml:103:9
+activity#mobi.mobileforce.garudamiles.activity.AttractionLocationActivity
+ADDED from AndroidManifest.xml:108:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:111:13
+	android:label
+		ADDED from AndroidManifest.xml:110:13
+	android:theme
+		ADDED from AndroidManifest.xml:112:13
+	android:name
+		ADDED from AndroidManifest.xml:109:13
+activity#mobi.mobileforce.garudamiles.activity.DetailActivity
+ADDED from AndroidManifest.xml:114:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:117:13
+	android:label
+		ADDED from AndroidManifest.xml:116:13
+	android:theme
+		ADDED from AndroidManifest.xml:118:13
+	android:name
+		ADDED from AndroidManifest.xml:115:13
+activity#mobi.mobileforce.garudamiles.activity.DetailActivity2
+ADDED from AndroidManifest.xml:120:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:123:13
+	android:label
+		ADDED from AndroidManifest.xml:122:13
+	android:theme
+		ADDED from AndroidManifest.xml:124:13
+	android:name
+		ADDED from AndroidManifest.xml:121:13
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from AndroidManifest.xml:128:9
+	android:value
+		ADDED from AndroidManifest.xml:130:13
+	android:name
+		ADDED from AndroidManifest.xml:129:13
 meta-data#com.google.android.gms.version
-ADDED from AndroidManifest.xml:95:9
+ADDED from AndroidManifest.xml:131:9
 MERGED from com.google.android.gms:play-services:6.5.87:21:9
 	android:value
-		ADDED from AndroidManifest.xml:97:13
+		ADDED from AndroidManifest.xml:133:13
 	android:name
-		ADDED from AndroidManifest.xml:96:13
+		ADDED from AndroidManifest.xml:132:13
 android:uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from AndroidManifest.xml:2:1 reason: com.capricorn has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE

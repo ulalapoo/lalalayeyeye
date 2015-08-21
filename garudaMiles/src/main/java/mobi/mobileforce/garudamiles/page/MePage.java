@@ -25,6 +25,16 @@ public class MePage extends Fragment implements OnClickListener {
 	View view;
 	ImageView imageAvatar;
 	LinearLayout btnNotification, btnDraft, btnPhotoAlbum;
+	MyOnClickMePage listener;
+
+	public interface MyOnClickMePage {
+		public void onItemMePage(int id);
+	}
+
+	public void registerForListener(MyOnClickMePage listener) {
+
+		this.listener = listener;
+	}
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -68,11 +78,16 @@ public class MePage extends Fragment implements OnClickListener {
 		return output;
 	}
 
+
 	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
 		Intent i;
 		switch (v.getId()) {
+//			case R.id.btnNotification:
+//				listener.onItemMePage(R.id.btnNotification);
+//
+//				break;
 			case R.id.btnNotification:
 				i = new Intent(getActivity(), DetailActivity2.class);
 				i.putExtra("type", "notification");

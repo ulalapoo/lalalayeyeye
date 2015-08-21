@@ -48,7 +48,7 @@
     <application
         android:name="mobi.mobileforce.garudamiles.SampleApplication"
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/logo_garudamiles"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
@@ -69,13 +69,49 @@
             android:theme="@android:style/Theme.Holo.Light" >
         </activity>
         <activity
+            android:name="mobi.mobileforce.garudamiles.activity.SearchReview"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
             android:name="mobi.mobileforce.garudamiles.activity.HomeActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light" >
         </activity>
         <activity
+            android:name="mobi.mobileforce.garudamiles.activity.AttractionTypeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="mobi.mobileforce.garudamiles.activity.PublishActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="mobi.mobileforce.garudamiles.activity.ReviewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="mobi.mobileforce.garudamiles.page.AddAttractionName"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
             android:name="com.ortiz.touch.ViewPagerExampleActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="mobi.mobileforce.garudamiles.activity.AttractionLocationActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light" >

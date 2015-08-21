@@ -25,28 +25,28 @@ public final class R {
 		public static final int text_3_top = 0x7f070008;
 	}
 	public static final class drawable {
-		public static final int composer_button = 0x7f0200aa;
-		public static final int composer_button_normal = 0x7f0200ab;
-		public static final int composer_button_pressed = 0x7f0200ac;
-		public static final int composer_icn_plus = 0x7f0200ad;
-		public static final int composer_icn_plus_normal = 0x7f0200ae;
-		public static final int composer_icn_plus_pressed = 0x7f0200af;
-		public static final int sat_main = 0x7f0200d8;
+		public static final int composer_button = 0x7f0200af;
+		public static final int composer_button_normal = 0x7f0200b0;
+		public static final int composer_button_pressed = 0x7f0200b1;
+		public static final int composer_icn_plus = 0x7f0200b2;
+		public static final int composer_icn_plus_normal = 0x7f0200b3;
+		public static final int composer_icn_plus_pressed = 0x7f0200b4;
+		public static final int sat_main = 0x7f0200de;
 	}
 	public static final class id {
-		public static final int control_hint = 0x7f0c0056;
-		public static final int control_layout = 0x7f0c0055;
-		public static final int item_layout = 0x7f0c0054;
-		public static final int textViewMenu1 = 0x7f0c0057;
-		public static final int textViewMenu2 = 0x7f0c0058;
-		public static final int textViewMenu3 = 0x7f0c0059;
+		public static final int control_hint = 0x7f0d0056;
+		public static final int control_layout = 0x7f0d0055;
+		public static final int item_layout = 0x7f0d0054;
+		public static final int textViewMenu1 = 0x7f0d0057;
+		public static final int textViewMenu2 = 0x7f0d0058;
+		public static final int textViewMenu3 = 0x7f0d0059;
 	}
 	public static final class integer {
 		public static final int num_cols = 0x7f080000;
 	}
 	public static final class layout {
 		public static final int arc_menu = 0x7f030017;
-		public static final int ray_menu = 0x7f030041;
+		public static final int ray_menu = 0x7f03004e;
 	}
 	public static final class string {
 		public static final int action_settings = 0x7f06001d;
