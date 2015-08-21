@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/xxx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Review of "
+                android:textColor="#FF0065b3"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/itemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/txt"
+                android:text="Taman Baluran Nasional"
+                android:textColor="#FF0065b3"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt"
+                android:layout_marginBottom="10dp"
+                android:text="Jawa Timur, "
+                android:textColor="#FF7c7c7c"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/itemLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@id/txt1"
+                android:textColor="#FF7c7c7c"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/pic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt1"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/advanceReviews"
+                android:src="@drawable/trip2" />
+
+            <LinearLayout
+                android:id="@+id/advanceReviews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/pic"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/abc"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Rate This Attraction"
+        android:textColor="#FFea6520"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/advanceReviews"
+        android:layout_below="@id/abc"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:text="What do you think of this place?"
+        android:textColor="#FF7b7b7b"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advanceReviews"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageRating1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="3dp"
+            android:adjustViewBounds="true"
+            android:fitsSystemWindows="true"
+            android:src="@drawable/star_filled" />
+
+        <ImageView
+            android:id="@+id/imageRating2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:adjustViewBounds="true"
+            android:fitsSystemWindows="true"
+            android:src="@drawable/star_filled" />
+
+        <ImageView
+            android:id="@+id/imageRating3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:adjustViewBounds="true"
+            android:fitsSystemWindows="true"
+            android:src="@drawable/star_filled" />
+
+        <ImageView
+            android:id="@+id/imageRating4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:adjustViewBounds="true"
+            android:fitsSystemWindows="true"
+            android:src="@drawable/star_blank" />
+
+        <ImageView
+            android:id="@+id/imageRating5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:adjustViewBounds="true"
+            android:fitsSystemWindows="true"
+            android:src="@drawable/star_blank" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="#FF7b7b7b" />
+
+    <RelativeLayout
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line4"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:text="Description"
+            android:textColor="#FFea6520"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvHitung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:text="0"
+            android:textColor="#FF7b7b7b"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tvHitung"
+            android:text="/500"
+            android:textColor="#FF7b7b7b"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/tvDesc"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_below="@id/desc"
+            android:gravity="left"
+            android:hint="Start Writing... (min. 500 character)"
+            android:maxLength="500"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:textColor="#FF7b7b7b"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/footerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FF0065b3">
+
+        <ImageView
+            android:id="@+id/imageIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/camera_footer"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@+id/imageIcon"
+            android:text="(2/10)"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</LinearLayout>
+
+
+
+<!-- From: file:/C:/Users/Sulalah%20Rugaya/StudioProjects/GarudaMiles/garudaMiles/src/main/res/layout/item_write_review.xml -->
